@@ -1,0 +1,380 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+*{
+    font-family: 'Raleway', 'Roboto', sans-serif;
+    font-weight: 600;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.leftSideLogin, .leftSideCad, .leftSide-leftSideCad{
+    height: 100%;
+    display: flex;  
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-left-div-cad{
+    display: flex;
+    justify-content: start;
+    width: 100%;
+    height: 10%;
+    align-items: end;
+}
+
+/* #aclogin{
+    width: 17%;
+    margin-left: 5%;
+    height: 70%;
+    padding: 0;
+}
+*/
+
+.leftSideLogin{
+    width: 40%;
+}
+
+.leftSideCad, .leftSide-leftSideCad{
+    justify-content: center;
+    width: 50%;
+}
+
+.rightSideLogin, .rightSideCad, .rightSide-rightSideCad{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightSide-rightSideCad{
+    width: 50%;
+}
+
+.rightSideCad, .rightSideLogin{
+    background: linear-gradient(to bottom, #301f60, #8a3b65);
+}
+
+
+.rightSideLogin{
+    width: 60%;
+}
+
+.rightSideCad{
+    width: 50%;
+}
+
+.formLogin, .sides, .formCad{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.formLogin, .formCad{
+    flex-direction: column;
+    justify-content: center;
+}
+
+.formCad{
+    height: 100%;
+}
+
+.formLogin{
+    height: 100%;
+}
+
+.sides{
+    height: 50%;
+}
+
+.userCampLogin, .userCampCad{
+    width: 80%;
+    padding: 0;
+}
+
+.userCampLogin{
+    height: 16%;
+}
+
+.userCampCad{
+    height: 30%;
+    margin: 0 0 2em 0;
+}
+
+
+.btnCampLogin, .btnCampCad{
+    width: 80%;
+    padding: 0;
+}
+
+.btnCampCad{
+    display: flex;
+    justify-content: center;
+}
+
+#inputPassExternalLogin, #inputEmailExternalLogin, #inputExternal{
+    width: 100%;
+    background-color: #eeeeee;
+    display: flex;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+#inputExternal{
+    justify-content: center;
+    align-items: center;
+    height: 35%;
+}
+
+#inputPassExternalLogin, #inputEmailExternalLogin{
+    height: 30%;
+    justify-content: end;
+    align-items: center;
+}
+
+#openEyeLogin{
+    display: none;
+    width: 4.8%;
+    margin-right: 2%;
+    height: 58%;
+}
+#closeEyeLogin{
+    display: none;
+    margin-right: 2%;
+    width: 5%;
+    height: 95%;
+}
+
+#openEyeCad, #closeEyeCad{
+    margin-right: 4%;
+}
+
+#openEyeCad{
+    display: none;
+    width: 6.5%;
+    height: 50%;
+}
+
+#closeEyeCad{
+    display: none;
+    width: 7%;
+    height: 80%;
+}
+
+#openEyeLogin:hover, #openEyeCad:hover, #closeEyeLogin:hover, #closeEyeCad:hover{
+    cursor: pointer;
+}
+
+#divIcon{
+    width: 10%;
+    height: 100%;
+    background-color: #6e3b68;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 5px 5px 0px;
+}
+
+#icPass{
+    width: 40%;
+    height: 60%;
+}
+
+#icMail{
+    width: 45%;
+    height: 50%;
+}
+
+#inputEmail, #inputPassword, #inputCad{
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: #555555;
+    background-color: transparent;
+    text-align: left;
+}
+
+#inputEmail, #inputPassword{
+    padding: 10px 0px 10px 0px;
+}
+
+#inputCad{
+    width: 90%;
+    height: 100%;
+    padding: 0;
+}
+
+#inputEmail{
+    width: 86%;
+    margin-right: 1%;
+}
+
+#inputPassword{
+    margin-right: 17%;
+    width: 70%;
+}
+
+
+
+#btnSubmitLogin, #btnSubmitCad, #btnCadLogin, #btnLoginCad{
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+
+#btnSubmitLogin, #btnSubmitCad, #btnLoginCad{
+    background-color: #6e3b68;
+    color: white;
+}
+
+#btnSubmitLogin, #btnSubmitCad{
+    transition: .1s  ease-in;
+}
+
+#btnSubmitLogin, #btnCadLogin{
+    padding: 10px 0px 10px 0px;
+    width: 100%;
+}
+
+#btnSubmitCad{
+    width: 30%;
+    padding: 15px 10px 15px 10px;
+}
+
+/* #btnLoginCad{
+    width: 100%;
+    height: 100%;
+    transition: .1s ease-in;
+}
+
+#btnLoginCad:hover{
+    background: transparent;
+    border: 2px solid #6e3b68;
+    color: #6e3b68;
+    cursor: pointer;
+} */
+
+#btnSubmitLogin:hover, #btnSubmitCad:hover{
+    box-shadow: 0px 2px 5px 0px #0000005d;
+    transform: scale(1.01);
+    cursor: pointer;
+}
+
+#btnSubmitLogin:active, #btnSubmitCad:active{
+    background-color: #3a1f37;
+    transform: scale(0.99);
+}
+
+#btnCadLogin{
+    background: transparent;
+    border: 1px solid #6e3b68;
+    color: #6e3b68;
+    transition: .15s ease-in-out;
+    cursor: pointer;
+}
+
+#btnCadLogin:hover{
+    background-color: #6e3b68;
+    color: white;
+}
+
+#btnCadLogin:active{
+    background-color: #3a1f37;
+    transform: scale(0.99)
+}
+
+
+#btnSubmit:hover, #btnCad:hover, #forgotPass:hover, #alreadyCad:hover{
+    cursor: pointer;
+}
+
+#forgotPass, h5{
+    margin-top: 0;
+}
+
+#forgotPass, #alreadyCad{
+    color: #6e3b68;
+    text-decoration: underline;
+    outline: none;
+}
+
+#forgotPass:active, #alreadyCad:active{
+    color: #3a1f37;
+}
+
+#alreadyCad{
+    margin-top: 1em;
+    margin-bottom: 40%;
+}
+
+#lineDivisor{
+    width: 45%;
+    color: #eeeeee;
+    margin: 0;
+}
+
+#or{
+    margin: 5%;
+}
+
+.lineGroup{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80%;
+    margin-bottom: 2.5%;
+}
+
+.up, .down{
+    width: 100%;
+    height: 50%;
+    display: flex;
+}
+.up{
+    justify-content: center;
+    align-items: end;
+}
+.down{
+    justify-content: center;
+    align-items: center;
+}
+
+#imgRightSide{
+    width: 50%;
+}
+
+#fraseRightSide{
+    margin: 0;
+    width: 90%;
+    margin: 0;
+    text-align: center;
+    color: white;
+}
+
+#fraseLeftSideLogin, #fraseLeftSideCad{
+    color: #6e3b68;
+}
+
+#fraseLeftSideLogin{
+    margin-bottom: 13%;
+}
+
+#fraseLeftSideCad{
+    margin-top: 0;
+    margin-bottom: 9%;
+}
+
+#warningEmail, #warningPass, #warning{
+    display: none;
+    color: #bb0000;
+    margin: 5px 0px 0px 0px;
+}
